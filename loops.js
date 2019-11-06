@@ -25,4 +25,7 @@ while (countdown > 0) {
 
 }
 
-function doWhileLoop(){}
+function doWhileLoop(){
+  i = i + 1;
+  return i;
+}
