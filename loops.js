@@ -18,7 +18,7 @@ function whileLoop(n){
   let countdown = 100;
  
 while (countdown > 0) {
-  console.log (Math.floor(Math.random() * 100));
+  console.log (;
 }if (countdown === 0){
   return 'done';
 }
