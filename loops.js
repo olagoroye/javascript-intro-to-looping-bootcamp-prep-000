@@ -27,11 +27,15 @@ while (countdown > 0) {
 
 var i = 0;
  
-function incrementVariable() {
+function doWhileLoop() {
   i = i + 1;
   return i;
 }
  
 do {
   console.log("doo-bee-doo-bee-doo");
+  
 } while (incrementVariable() < 5);
+
+
+
